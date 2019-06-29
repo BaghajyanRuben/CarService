@@ -36,6 +36,6 @@ public class Admin {
         Car car = cars.get(index);
         incrementProfit(car.getPrice());
         cars.remove(car);
-        System.out.println("Congrets!!! you buy " +car.getModel().getName());
+        System.out.println("Congratulations !!! you bought a new Car -> " + car.getModel().getName());
     }
 }
